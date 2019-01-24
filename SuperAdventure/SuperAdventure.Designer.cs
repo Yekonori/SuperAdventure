@@ -132,7 +132,9 @@
             // 
             // cboWeapons
             // 
+            this.cboWeapons.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboWeapons.FormattingEnabled = true;
+            this.cboWeapons.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.cboWeapons.Location = new System.Drawing.Point(369, 559);
             this.cboWeapons.Name = "cboWeapons";
             this.cboWeapons.Size = new System.Drawing.Size(121, 24);
@@ -140,6 +142,7 @@
             // 
             // cboPotions
             // 
+            this.cboPotions.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboPotions.FormattingEnabled = true;
             this.cboPotions.Location = new System.Drawing.Point(369, 593);
             this.cboPotions.Name = "cboPotions";
